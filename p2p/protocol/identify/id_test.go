@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	ic "github.com/libp2p/go-libp2p-crypto"
-	testutil "github.com/libp2p/go-libp2p-netutil"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
+	ic "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	testutil "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-netutil"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
 	identify "github.com/libp2p/go-libp2p/p2p/protocol/identify"
 
-	blhost "github.com/libp2p/go-libp2p-blankhost"
-	host "github.com/libp2p/go-libp2p-host"
-	ma "github.com/multiformats/go-multiaddr"
+	blhost "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-blankhost"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
 )
 
 func subtestIDService(t *testing.T) {

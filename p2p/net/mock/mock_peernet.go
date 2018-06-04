@@ -6,12 +6,12 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/jbenet/goprocess"
-	goprocessctx "github.com/jbenet/goprocess/context"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	ma "github.com/multiformats/go-multiaddr"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/jbenet/goprocess"
+	goprocessctx "github.com/libp2p/go-libp2p/gxlibs/github.com/jbenet/goprocess/context"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
 )
 
 // peernet implements inet.Network

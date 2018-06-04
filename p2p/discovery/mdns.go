@@ -10,13 +10,13 @@ import (
 	"sync"
 	"time"
 
-	logging "github.com/ipfs/go-log"
-	"github.com/libp2p/go-libp2p-host"
-	"github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	ma "github.com/multiformats/go-multiaddr"
-	manet "github.com/multiformats/go-multiaddr-net"
-	"github.com/whyrusleeping/mdns"
+	logging "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-log"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
+	manet "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr-net"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/whyrusleeping/mdns"
 )
 
 var log = logging.Logger("mdns")

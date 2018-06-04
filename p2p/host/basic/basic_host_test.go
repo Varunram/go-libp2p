@@ -8,13 +8,13 @@ import (
 	"testing"
 	"time"
 
-	host "github.com/libp2p/go-libp2p-host"
-	inet "github.com/libp2p/go-libp2p-net"
-	testutil "github.com/libp2p/go-libp2p-netutil"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	protocol "github.com/libp2p/go-libp2p-protocol"
-	ma "github.com/multiformats/go-multiaddr"
-	madns "github.com/multiformats/go-multiaddr-dns"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	testutil "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-netutil"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	protocol "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-protocol"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
+	madns "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr-dns"
 )
 
 func TestHostSimple(t *testing.T) {

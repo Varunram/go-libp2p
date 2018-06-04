@@ -39,14 +39,14 @@ import (
 	mrand "math/rand"
 	"os"
 
-	"github.com/libp2p/go-libp2p-crypto"
-	"github.com/libp2p/go-libp2p-host"
-	"github.com/libp2p/go-libp2p-net"
-	"github.com/libp2p/go-libp2p-peer"
-	"github.com/libp2p/go-libp2p-peerstore"
-	"github.com/libp2p/go-libp2p-swarm"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-swarm"
 	"github.com/libp2p/go-libp2p/p2p/host/basic"
-	"github.com/multiformats/go-multiaddr"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
 )
 
 /*

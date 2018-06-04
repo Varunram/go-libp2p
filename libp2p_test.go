@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	crypto "github.com/libp2p/go-libp2p-crypto"
-	host "github.com/libp2p/go-libp2p-host"
+	crypto "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
 )
 
 func TestNewHost(t *testing.T) {

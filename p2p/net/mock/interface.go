@@ -10,13 +10,13 @@ import (
 	"io"
 	"time"
 
-	host "github.com/libp2p/go-libp2p-host"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
 
-	ic "github.com/libp2p/go-libp2p-crypto"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	ma "github.com/multiformats/go-multiaddr"
+	ic "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
 )
 
 type Mocknet interface {

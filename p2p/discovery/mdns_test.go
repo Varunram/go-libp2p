@@ -7,10 +7,10 @@ import (
 
 	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
 
-	host "github.com/libp2p/go-libp2p-host"
-	netutil "github.com/libp2p/go-libp2p-netutil"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	netutil "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-netutil"
 
-	pstore "github.com/libp2p/go-libp2p-peerstore"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
 )
 
 type DiscoveryNotifee struct {

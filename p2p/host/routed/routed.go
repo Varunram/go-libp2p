@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"time"
 
-	host "github.com/libp2p/go-libp2p-host"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
 
-	logging "github.com/ipfs/go-log"
-	ifconnmgr "github.com/libp2p/go-libp2p-interface-connmgr"
-	lgbl "github.com/libp2p/go-libp2p-loggables"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	protocol "github.com/libp2p/go-libp2p-protocol"
-	ma "github.com/multiformats/go-multiaddr"
-	msmux "github.com/multiformats/go-multistream"
+	logging "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-log"
+	ifconnmgr "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-interface-connmgr"
+	lgbl "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-loggables"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	protocol "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-protocol"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
+	msmux "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multistream"
 )
 
 var log = logging.Logger("routedhost")

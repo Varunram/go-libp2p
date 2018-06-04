@@ -9,13 +9,13 @@ import (
 
 	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
 
-	u "github.com/ipfs/go-ipfs-util"
-	logging "github.com/ipfs/go-log"
-	host "github.com/libp2p/go-libp2p-host"
-	inet "github.com/libp2p/go-libp2p-net"
-	testutil "github.com/libp2p/go-libp2p-netutil"
-	peer "github.com/libp2p/go-libp2p-peer"
-	protocol "github.com/libp2p/go-libp2p-protocol"
+	u "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-ipfs-util"
+	logging "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-log"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	testutil "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-netutil"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	protocol "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-protocol"
 )
 
 var log = logging.Logger("backpressure")

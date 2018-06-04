@@ -7,19 +7,19 @@ import (
 
 	identify "github.com/libp2p/go-libp2p/p2p/protocol/identify"
 
-	logging "github.com/ipfs/go-log"
-	goprocess "github.com/jbenet/goprocess"
-	circuit "github.com/libp2p/go-libp2p-circuit"
-	ifconnmgr "github.com/libp2p/go-libp2p-interface-connmgr"
-	metrics "github.com/libp2p/go-libp2p-metrics"
-	mstream "github.com/libp2p/go-libp2p-metrics/stream"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	protocol "github.com/libp2p/go-libp2p-protocol"
-	ma "github.com/multiformats/go-multiaddr"
-	madns "github.com/multiformats/go-multiaddr-dns"
-	msmux "github.com/multiformats/go-multistream"
+	logging "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-log"
+	goprocess "github.com/libp2p/go-libp2p/gxlibs/github.com/jbenet/goprocess"
+	circuit "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-circuit"
+	ifconnmgr "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-interface-connmgr"
+	metrics "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-metrics"
+	mstream "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-metrics/stream"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	protocol "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-protocol"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
+	madns "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr-dns"
+	msmux "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multistream"
 )
 
 var log = logging.Logger("basichost")

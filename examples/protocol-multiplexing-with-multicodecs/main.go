@@ -8,17 +8,17 @@ import (
 	"math/rand"
 	"time"
 
-	crypto "github.com/libp2p/go-libp2p-crypto"
-	host "github.com/libp2p/go-libp2p-host"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	ps "github.com/libp2p/go-libp2p-peerstore"
-	swarm "github.com/libp2p/go-libp2p-swarm"
-	ma "github.com/multiformats/go-multiaddr"
+	crypto "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	ps "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	swarm "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-swarm"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
 
 	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
-	multicodec "github.com/multiformats/go-multicodec"
-	json "github.com/multiformats/go-multicodec/json"
+	multicodec "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multicodec"
+	json "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multicodec/json"
 )
 
 const proto = "/example/1.0.0"

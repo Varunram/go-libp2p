@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"log"
 
-	inet "github.com/libp2p/go-libp2p-net"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
 
-	"github.com/libp2p/go-libp2p-host"
+	"github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
 	pb "github.com/libp2p/go-libp2p/examples/multipro/pb"
-	protobufCodec "github.com/multiformats/go-multicodec/protobuf"
+	protobufCodec "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multicodec/protobuf"
 	uuid "github.com/satori/go.uuid"
 )
 

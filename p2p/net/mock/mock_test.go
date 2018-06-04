@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	detectrace "github.com/ipfs/go-detect-race"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	protocol "github.com/libp2p/go-libp2p-protocol"
-	testutil "github.com/libp2p/go-testutil"
+	detectrace "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-detect-race"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	protocol "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-protocol"
+	testutil "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-testutil"
 )
 
 func randPeer(t *testing.T) peer.ID {

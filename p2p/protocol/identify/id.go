@@ -9,17 +9,17 @@ import (
 
 	semver "github.com/coreos/go-semver/semver"
 	ggio "github.com/gogo/protobuf/io"
-	logging "github.com/ipfs/go-log"
-	ic "github.com/libp2p/go-libp2p-crypto"
-	host "github.com/libp2p/go-libp2p-host"
-	lgbl "github.com/libp2p/go-libp2p-loggables"
-	metrics "github.com/libp2p/go-libp2p-metrics"
-	mstream "github.com/libp2p/go-libp2p-metrics/stream"
-	inet "github.com/libp2p/go-libp2p-net"
-	peer "github.com/libp2p/go-libp2p-peer"
-	pstore "github.com/libp2p/go-libp2p-peerstore"
-	ma "github.com/multiformats/go-multiaddr"
-	msmux "github.com/multiformats/go-multistream"
+	logging "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-log"
+	ic "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-crypto"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	lgbl "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-loggables"
+	metrics "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-metrics"
+	mstream "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-metrics/stream"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	peer "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peer"
+	pstore "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-peerstore"
+	ma "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multiaddr"
+	msmux "github.com/libp2p/go-libp2p/gxlibs/github.com/multiformats/go-multistream"
 )
 
 var log = logging.Logger("net/identify")

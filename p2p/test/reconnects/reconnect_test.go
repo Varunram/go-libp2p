@@ -10,14 +10,14 @@ import (
 
 	bhost "github.com/libp2p/go-libp2p/p2p/host/basic"
 
-	u "github.com/ipfs/go-ipfs-util"
-	logging "github.com/ipfs/go-log"
-	host "github.com/libp2p/go-libp2p-host"
-	inet "github.com/libp2p/go-libp2p-net"
-	testutil "github.com/libp2p/go-libp2p-netutil"
-	protocol "github.com/libp2p/go-libp2p-protocol"
-	swarm "github.com/libp2p/go-libp2p-swarm"
-	ps "github.com/libp2p/go-peerstream"
+	u "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-ipfs-util"
+	logging "github.com/libp2p/go-libp2p/gxlibs/github.com/ipfs/go-log"
+	host "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-host"
+	inet "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-net"
+	testutil "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-netutil"
+	protocol "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-protocol"
+	swarm "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-libp2p-swarm"
+	ps "github.com/libp2p/go-libp2p/gxlibs/github.com/libp2p/go-peerstream"
 )
 
 func init() {
